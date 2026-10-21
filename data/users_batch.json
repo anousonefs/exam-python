@@ -1,0 +1,5 @@
+[
+  {"username": "souk", "password": "Pass#2026", "full_name": "Souk Vongsa", "email": "souk@example.com", "phone": "+8562099887766", "age": 41},
+  {"username": "mali", "password": "password", "full_name": "Mali Keo", "email": "mali@example", "phone": "02011223344", "age": 22, "role": "teller"},
+  {"username": "jo", "full_name": "J", "email": "jo@example.com", "phone": "0201122", "age": 130}
+]

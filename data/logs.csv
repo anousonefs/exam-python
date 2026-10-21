@@ -1,0 +1,110 @@
+timestamp,level,username,ip,action,status_code,response_time_ms,message
+2026-10-12 08:01:38,INFO,sengphet,10.10.1.20,TOPUP,200,331,mobile topup completed
+2026-10-12 08:09:00,INFO,khamla,10.10.1.12,TRANSFER,200,660,transfer completed
+2026-10-12 08:18:21,INFO,khamla,10.10.1.12,CHECK_BALANCE,200,49,balance returned
+2026-10-12 08:25:08,INFO,kongkeo,10.10.1.18,CHECK_BALANCE,200,67,balance returned
+2026-10-12 08:28:05,ERROR,kongkeo,10.10.1.18,CHECK_BALANCE,500,2093,core banking timeout
+2026-10-12 08:31:08,INFO,khamla,10.10.1.12,LOGIN,200,83,login success
+2026-10-12 08:31:26,INFO,somchai,10.10.1.11,LOGIN,200,169,login success
+2026-10-12 08:35:20,INFO,kongkeo,10.10.1.18,LOGOUT,200,28,logout
+2026-10-12 08:35:20,INFO,kongkeo,10.10.1.18,LOGIN,200,120,login success
+2026-10-12 08:43:24,INFO,noy,10.10.1.17,CHECK_BALANCE,200,55,balance returned
+2026-10-12 08:45:54,WARN,manivanh,10.10.1.19,PAY_BILL,400,133,invalid bill number
+2026-10-12 08:54:57,INFO,somchai,10.10.1.11,PAY_BILL,200,298,bill paid
+2026-10-12 08:55:48,WARN,manivanh,10.10.1.19,LOGIN,401,82,invalid password
+2026-10-12 08:58:32,INFO,sengphet,10.10.1.20,QR_PAYMENT,200,487,qr payment completed
+2026-10-12 09:00:23,INFO,kongkeo,10.10.1.18,CHECK_BALANCE,200,116,balance returned
+2026-10-12 09:00:53,ERROR,manivanh,10.10.1.19,CHECK_BALANCE,500,2502,core banking timeout
+2026-10-12 09:06:10,INFO,sengphet,10.10.1.20,LOGIN,200,65,login success
+2026-10-12 09:10:27,INFO,anousone,10.10.1.25,TRANSFER,200,481,transfer completed
+2026-10-12 09:14:34,INFO,khamla,10.10.1.12,PAY_BILL,200,667,bill paid
+2026-10-12 09:16:16,ERROR,somchai,10.10.1.11,CHECK_BALANCE,500,2738,core banking timeout
+2026-10-12 09:29:55,INFO,somchai,10.10.1.11,TRANSFER,200,405,transfer completed
+2026-10-12 09:30:35,INFO,kongkeo,10.10.1.18,TRANSFER,200,452,transfer completed
+2026-10-12 09:35:16,INFO,ketsana,10.10.1.23,CHECK_BALANCE,200,48,balance returned
+2026-10-12 09:41:03,WARN,phonesavanh,10.10.1.16,LOGIN,401,128,invalid password
+2026-10-12 09:42:38,WARN,phonesavanh,10.10.1.16,LOGIN,401,134,invalid password
+2026-10-12 09:44:13,WARN,phonesavanh,10.10.1.16,LOGIN,401,118,invalid password
+2026-10-12 09:49:49,ERROR,anousone,10.10.1.25,CHECK_BALANCE,500,2908,core banking timeout
+2026-10-12 09:55:06,INFO,sengphet,10.10.1.20,LOGIN,200,162,login success
+2026-10-12 10:02:42,INFO,anousone,10.10.1.25,CHECK_BALANCE,200,101,balance returned
+2026-10-12 10:04:37,INFO,somchai,10.10.1.11,PAY_BILL,200,574,bill paid
+2026-10-12 10:07:47,INFO,anousone,10.10.1.25,LOGOUT,200,44,logout
+2026-10-12 10:08:37,INFO,somchai,10.10.1.11,TRANSFER,200,535,transfer completed
+2026-10-12 10:13:13,INFO,manivanh,10.10.1.19,LOGIN,200,136,login success
+2026-10-12 10:15:22,INFO,kongkeo,10.10.1.18,CHECK_BALANCE
+2026-10-12 10:18:46,WARN,souksavanh,10.10.1.15,QR_PAYMENT,400,89,qr code expired
+2026-10-12 10:34:12,WARN,noy,10.10.1.17,PAY_BILL,400,98,invalid bill number
+2026-10-12 10:48:19,WARN,daovone,10.10.1.24,LOGIN,401,133,invalid password
+2026-10-12 11:11:58,INFO,latsamy,10.10.1.21,CHECK_BALANCE,200,61,balance returned
+2026-10-12 11:15:27,INFO,souksavanh,10.10.1.15,CHECK_BALANCE,200,116,balance returned
+2026-10-12 11:27:06,INFO,somchai,10.10.1.11,TRANSFER,200,540,transfer completed
+2026-10-12 11:30:49,INFO,somchai,10.10.1.11,LOGOUT,200,29,logout
+2026-10-12 11:38:03,INFO,anousone,10.10.1.25,TRANSFER,200,288,transfer completed
+2026-10-12 11:48:10,INFO,souksavanh,10.10.1.15,CHECK_BALANCE,200,49,balance returned
+2026-10-12 11:49:07,INFO,somchai,10.10.1.11,LOGIN,200,83,login success
+2026-10-12 12:00:55,INFO,anousone,10.10.1.25,CHECK_BALANCE,200,115,balance returned
+2026-10-12 12:05:25,INFO,souksavanh,10.10.1.15,CHECK_BALANCE,200,35,balance returned
+2026-10-12 12:12:57,INFO,manivanh,10.10.1.19,CHECK_BALANCE,200,35,balance returned
+2026-10-12 12:15:44,INFO,somchai,10.10.1.11,PAY_BILL,200,639,bill paid
+2026-10-12 12:22:30,INFO,noy,10.10.1.17,CHECK_BALANCE,200,67,balance returned
+2026-10-12 12:23:41,INFO,manivanh,10.10.1.19,LOGOUT,200,50,logout
+2026-10-12 12:30:00,INFO,noy,10.10.1.17,PAY_BILL,200,504,bill paid
+2026-10-12 12:32:54,INFO,souksavanh,10.10.1.15,CHECK_BALANCE,200,76,balance returned
+2026-10-12 12:46:33,INFO,somchai,10.10.1.11,PAY_BILL,200,488,bill paid
+2026-10-12 12:47:35,INFO,khamla,10.10.1.12,LOGIN,200,111,login success
+2026-10-12 12:52:09,WARN,anousone,10.10.1.25,TRANSFER,400,138,"insufficient funds, balance too low"
+2026-10-12 12:52:59,INFO,anousone,10.10.1.25,CHECK_BALANCE,200,36,balance returned
+2026-10-12 12:59:11,INFO,souksavanh,10.10.1.15,CHECK_BALANCE,200,36,balance returned
+2026-10-12 13:01:31,INFO,noy,10.10.1.17,LOGIN,200,154,login success
+2026-10-12 13:05:11,WARN,thongchanh,203.0.113.77,LOGIN,401,137,invalid password
+2026-10-12 13:05:58,WARN,thongchanh,203.0.113.77,LOGIN,401,113,invalid password
+2026-10-12 13:06:45,WARN,thongchanh,203.0.113.77,LOGIN,401,135,invalid password
+2026-10-12 13:07:32,WARN,thongchanh,203.0.113.77,LOGIN,401,128,invalid password
+2026-10-12 13:08:19,WARN,thongchanh,203.0.113.77,LOGIN,403,68,account blocked after too many attempts
+2026-10-12 13:11:04,INFO,somchai,10.10.1.11,LOGIN,200,71,login success
+2026-10-12 13:11:06,INFO,bounmy,10.10.1.13,TOPUP,200,142,mobile topup completed
+2026-10-12 13:11:40,INFO,vilayphone,10.10.1.14,CHECK_BALANCE,200,31,balance returned
+2026-10-12 13:13:20,INFO,somchai,10.10.1.11,CHECK_BALANCE,200,101,balance returned
+2026-10-12 13:14:33,INFO,somchai,10.10.1.11,TRANSFER,200,835,transfer completed
+2026-10-12 13:19:06,INFO,khamla,10.10.1.12,TOPUP,200,131,mobile topup completed
+2026-10-12 13:25:36,INFO,bounmy,10.10.1.13,TRANSFER,200,680,transfer completed
+2026-10-12 13:48:05,INFO,bounmy,10.10.1.13,CHECK_BALANCE,200,35,balance returned
+2026-10-12 14:01:08,INFO,sengphet,10.10.1.20,CHECK_BALANCE,200,58,balance returned
+2026-10-12 14:02:00,INFO,souksavanh,10.10.1.15,LOGOUT,200,49,logout
+2026-10-12 14:02:10,INFO,noy,10.10.1.17,TOPUP,200,abc,mobile topup completed
+2026-10-12 14:05:29,INFO,somchai,10.10.1.11,TOPUP,200,395,mobile topup completed
+2026-10-12 14:06:56,INFO,bounmy,10.10.1.13,LOGIN,200,120,login success
+2026-10-12 14:17:05,INFO,latsamy,10.10.1.21,PAY_BILL,200,645,bill paid
+2026-10-12 14:28:47,INFO,anousone,10.10.1.25,LOGIN,200,151,login success
+2026-10-12 14:39:57,INFO,somchai,10.10.1.11,CHECK_BALANCE,200,59,balance returned
+2026-10-12 14:47:08,INFO,daovone,10.10.1.24,CHECK_BALANCE,200,70,balance returned
+2026-10-12 15:03:43,INFO,somchai,10.10.1.11,LOGIN,200,98,login success
+2026-10-12 15:09:23,INFO,somchai,10.10.1.11,LOGIN,200,120,login success
+2026-10-12 15:12:04,INFO,ketsana,10.10.1.23,TRANSFER,200,873,transfer completed
+2026-10-12 15:21:30,INFO,latsamy,10.10.1.21,TOPUP,200,340,mobile topup completed
+2026-10-12 15:27:43,INFO,bounmy,10.10.1.13,QR_PAYMENT,200,339,qr payment completed
+2026-10-12 15:37:52,INFO,somchai,10.10.1.11,QR_PAYMENT,200,484,qr payment completed
+2026-10-12 15:47:30,ERROR,ketsana,10.10.1.23,TOPUP,503,1029,telco gateway unavailable
+2026-10-12 15:47:57,INFO,bounmy,10.10.1.13,PAY_BILL,200,681,bill paid
+2026-10-12 15:53:47,INFO,somchai,10.10.1.11,CHECK_BALANCE,200,68,balance returned
+2026-10-12 15:58:28,INFO,somchai,10.10.1.11,TOPUP,200,388,mobile topup completed
+2026-10-12 16:22:47,INFO,manivanh,10.10.1.19,LOGOUT,200,54,logout
+2026-10-12 16:22:59,INFO,vilayphone,10.10.1.14,TRANSFER,200,891,transfer completed
+2026-10-12 16:24:49,INFO,sengphet,10.10.1.20,LOGIN,200,118,login success
+2026-10-12 16:39:47,WARN,sengphet,10.10.1.20,LOGIN,401,140,invalid password
+2026-10-12 16:42:51,INFO,daovone,10.10.1.24,LOGIN,200,165,login success
+2026-10-12 16:43:33,WARN,ketsana,10.10.1.23,LOGIN,401,123,invalid password
+2026-10-12 16:51:12,WARN,khamla,10.10.1.12,TRANSFER,400,136,"insufficient funds, balance too low"
+2026-10-12 17:01:49,INFO,anousone,10.10.1.25,CHECK_BALANCE,200,101,balance returned
+2026-10-12 17:13:57,INFO,daovone,10.10.1.24,LOGIN,200,70,login success
+2026-10-12 17:22:27,INFO,noy,10.10.1.17,LOGIN,200,102,login success
+2026-10-12 17:28:27,INFO,bounmy,10.10.1.13,CHECK_BALANCE,200,88,balance returned
+2026-10-12 17:34:28,INFO,ketsana,10.10.1.23,TRANSFER,200,780,transfer completed
+2026-10-12 17:46:45,INFO,khamla,10.10.1.12,CHECK_BALANCE,200,61,balance returned
+2026-10-12 17:47:00,INFO,daovone,10.10.1.24,CHECK_BALANCE,200,116,balance returned
+2026-10-12 17:49:10,ERROR,daovone,10.10.1.24,TRANSFER,500,3815,core banking timeout
+2026-10-12 17:49:55,INFO,sengphet,10.10.1.20,LOGIN,200,100,login success
+2026-10-12 17:52:55,INFO,noy,10.10.1.17,PAY_BILL,200,672,bill paid
+2026-10-12 17:57:57,INFO,bounmy,10.10.1.13,CHECK_BALANCE,200,93,balance returned
+2026-10-12 17:59:40,INFO,somchai,10.10.1.11,LOGIN,200,154,login success
